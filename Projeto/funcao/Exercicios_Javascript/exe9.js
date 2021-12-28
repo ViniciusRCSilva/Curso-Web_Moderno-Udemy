@@ -11,11 +11,11 @@ e o aluno será aprovado. */
 function receberNota(nota){
     // se a nota for maior que 100, mostra mensagem de erro
     if(nota > 100 || nota < 0){
-        return aprovacao(nota)
+        return erro(nota)
     }else{
         // se a nota for menor que 38, será reprovado
         if(nota < 38){
-            return aprovacao(nota)
+            return reprovacao(nota)
         } else{
             // se a nota for maior ou igual a 38, o aluno será aprovado
             if(nota >= 38){
@@ -35,18 +35,16 @@ function receberNota(nota){
 }
 
 // função para otimizar a impressão dos resultados
+function erro(nota){
+    return console.log(`ERRO!\nVerifique a nota novamente | __NOTA:${nota}__`)
+}
+
+function reprovacao(nota){
+    return console.log(`Reprovado com a nota: ${nota}`)
+}
+
 function aprovacao(nota){
-    if(nota > 100 || nota < 0){
-        return console.log(`ERRO!\nVerifique a nota novamente | __NOTA:${nota}__`)
-    }else{
-        if(nota < 38){
-            return console.log(`Reprovado com a nota: ${nota}`)
-        }else{
-            if(nota >= 38){
-                return console.log(`Aprovado com a nota: ${nota}`)
-            }
-        }
-    }
+    return console.log(`Aprovado com a nota: ${nota}`)
 }
 
 receberNota(84)  // arredonda para 85 - aprova
