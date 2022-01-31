@@ -7,7 +7,102 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        /* ... */
+        body{
+            background-color: lightgray;
+            margin: 0;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        ul li{
+            list-style: none;
+        }
+
+        .cabecalho{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #222;
+            border-bottom: 5px solid rgb(67, 128, 224);
+            font-size: 20px;
+            height: 90px;
+            width: 100%;
+        }
+
+        .logo{
+            margin-left: 15px;
+        }
+
+        .logo img{
+            width: 250px;
+        }
+
+        .menu-toggle{
+            display: none; 
+            background-color: rgb(90, 90, 90);
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .menu-toggle i{
+            color: #fff;
+        }
+
+        .menu{
+            width: 70%;
+        }
+
+        .menu ul{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .menu ul li{
+            padding: 20px 10px 20px 10px;
+        }
+
+        .menu ul li:hover{
+            background-color: rgb(67, 128, 224);
+            color: #222;
+        }
+
+        .menu ul li:hover a{
+            color: #222;
+        }
+
+        .autenticacao{
+            width: 30%;
+            text-align: right;
+        }
+
+        .autenticacao a{
+            margin-right: 10px;
+        }
+
+        .botao{
+            padding: 10px 25px;
+            border-radius: 25px;
+        }
+
+        .destaque{
+            background-color: rgb(218, 35, 35);
+        }
+
+        @media (max-width: 920px) {
+            .autenticacao{ display: none; }
+        }
+
+        @media (max-width: 800px) {
+            .menu{ display: none; }
+            .menu-toggle{ display: flex; }
+            .logo{ width: 89%; }
+        }
     </style>
 </head>
 
@@ -44,7 +139,7 @@
     </header>
 
     <script>
-        // ...
+        
     </script>
 </body>
 
