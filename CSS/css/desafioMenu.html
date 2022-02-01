@@ -63,16 +63,13 @@
             flex-direction: row;
         }
 
-        .menu ul li{
+        .menu a{
             padding: 20px 10px 20px 10px;
         }
 
-        .menu ul li:hover{
+        .menu a:hover,
+        .menu a.selected {
             background-color: rgb(67, 128, 224);
-            color: #222;
-        }
-
-        .menu ul li:hover a{
             color: #222;
         }
 
@@ -139,7 +136,19 @@
     </header>
 
     <script>
-        
+        window.onhashchange = function(e) {
+            /* Recebe a parte que está depois do cerquilha na URL */
+            const oldURL = e.oldURL.split('#')[1]
+            const newURL = e.newURL.split('#')[1]
+
+            /* Seleciona dentro de menu um link que possui esse URL */
+            const oldMenu = document.querySelector(`.menu a[href = '#${oldURL}']`)
+            const newMenu = document.querySelector(`.menu a[href = '#${newURL}']`)
+
+            /* Adiciona ou remove a classe select do menu */
+            oldMenu && oldMenu.classList.remove('selected')
+            newMenu && newMenu.classList.add('selected')
+        }
     </script>
 </body>
 
