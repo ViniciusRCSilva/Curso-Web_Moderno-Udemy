@@ -12,14 +12,16 @@
   </div>
   <div>
     <img align="center" alt="css" height="30" src="https://img.shields.io/badge/CSS3%20-1572B6.svg?style=flat-the-badge&logo=css3&logoColor=black"/>
+    <img align="center" alt="gulp" height="30" src="https://img.shields.io/badge/Gulp%20-CF4647.svg?style=flat-the-badge&logo=gulp&logoColor=black"/>
     <img align="center" alt="jquery" height="30" src="https://img.shields.io/badge/JQuery%20-0769AD.svg?style=flat-the-badge&logo=jquery&logoColor=black"/>
     <img align="center" alt="bootsrap" height="30" src="https://img.shields.io/badge/Bootstrap%20-7952B3.svg?style=flat-the-badge&logo=bootstrap&logoColor=black"/>
     <br/>
     <h1></h1>
   </div>
   <div>
-    <img align="center" alt="node" height="30" src="https://img.shields.io/badge/React%20-61DAFB.svg?style=flat-the-badge&logo=react&logoColor=black"/>
-    <img align="center" alt="node" height="30" src="https://img.shields.io/badge/Vue.JS%20-4FC08D.svg?style=flat-the-badge&logo=vuedotjs&logoColor=black"/>
-    <img align="center" alt="node" height="30" src="https://img.shields.io/badge/Angular%20-DD0031.svg?style=flat-the-badge&logo=angular&logoColor=black"/>
+    <img align="center" alt="react" height="30" src="https://img.shields.io/badge/React%20-61DAFB.svg?style=flat-the-badge&logo=react&logoColor=black"/>
+    <img align="center" alt="vue" height="30" src="https://img.shields.io/badge/Vue.JS%20-4FC08D.svg?style=flat-the-badge&logo=vuedotjs&logoColor=black"/>
+    <img align="center" alt="angular" height="30" src="https://img.shields.io/badge/Angular%20-DD0031.svg?style=flat-the-badge&logo=angular&logoColor=black"/>
+    <img align="center" alt="express" height="30" src="https://img.shields.io/badge/Express%20-000000.svg?style=flat-the-badge&logo=express"/>
   </div>
 </div>
