@@ -13,8 +13,33 @@
     <div id='conteudo1'></div>
     <div id='conteudo2'></div>
     <div id='conteudo3'></div>
+    <div>sem ID</div>
 
     <script>
-        // ...
+        /* conteudo 1 */
+        $('#conteudo1').append('<p>1</p>')
+
+        /* conteudo 2 */
+        const elementos = [
+            /* <elemento> -> elemento criado a partir do jQuery */
+            /* elemento -> seletor */
+            $('<li></li>').append('Arroz'),
+            $('<li>').append('Feijão'),
+            $('<li>').append('Carne')
+        ]
+
+                                                    /* "elementos" aparecem antes */
+        const lista = $('<ul><li>Sorvete</li></ul>').prepend(elementos)
+        $('#conteudo2').append(lista)
+
+        /* conteudo 3 */
+        $('#conteudo3').append(['<h1>1</h1>', '<h2>2</h2>']).prepend('<h1>0</h1>')
+        /* html substitui o conteúdo */
+        $('#conteudo3').html('<h1>123</h1>')
+        /* interpreta como texto e não identifica as tags */
+        $('#conteudo3').text('<h1>123</h1>')
+
+        /* alternando todos que tem ID */
+        $('div[id]').html('<strong>todos</strong>')
     </script>
 </body>
