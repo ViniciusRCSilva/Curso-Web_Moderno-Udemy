@@ -1,5 +1,6 @@
 <div align="center">
-  <h1>Curso Web Moderno - <img align="center" alt="Udemy" height="40" src="https://img.shields.io/badge/udemy%20-A435F0.svg?style=for-the-badge&logo=udemy&logoColor=white"/></h1>
+  <h1><img align="center" alt="Udemy" height="60" src="https://img.shields.io/badge/udemy%20-A435F0.svg?style=for-the-badge&logo=udemy&logoColor=white"/></h1>
+  <h4>Curso Web Moderno</h4>
   <p>Aqui você irá ver códigos e desafios propostos pelo curso "Web Moderno com JavaScript" da Udemy.</p>
   
   <h3>Assuntos abordados durante o curso :man_technologist:</h3>
