@@ -21,6 +21,7 @@
   </div>
   <div>
     <img align="center" alt="react" height="40" src="https://img.shields.io/badge/React%20-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black"/>
+    <img align="center" alt="next" height="40" src="https://img.shields.io/badge/Next.JS%20-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
     <img align="center" alt="vue" height="40" src="https://img.shields.io/badge/Vue.JS%20-4FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=white"/>
     <img align="center" alt="angular" height="40" src="https://img.shields.io/badge/Angular%20-DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"/>
     <img align="center" alt="express" height="40" src="https://img.shields.io/badge/Express%20-000000.svg?style=for-the-badge&logo=express"/>
