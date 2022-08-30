@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2015",
     "lib": [
       "dom",
       "dom.iterable",
@@ -16,7 +16,7 @@
     "module": "esnext",
     "isolatedModules": true,
     "jsx": "preserve",
-    //"resolveJsonModule": true
+    "resolveJsonModule": true
   },
   "include": [
     "next-env.d.ts",
