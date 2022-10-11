@@ -7,7 +7,7 @@
         @click="selected = !selected">
         <div class="number" :class="{ selected }">{{ number }}</div>
         <div class="knob" :class="{ selected }"
-            @click="open = true"></div>
+            @click.stop="open = true"></div>
     </div>
   </div>
 </template>
